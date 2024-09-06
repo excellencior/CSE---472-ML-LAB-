@@ -1,0 +1,11 @@
+buet, du, dmc
+0, 1, 2
+
+
+
+buet_temp --> [0 0 1]
+du_temp ----> [0 1 0]
+dmc_temp ---> [1 0 0]
+
+buet_temp du_temp dmc_temp
+    1         0       0
