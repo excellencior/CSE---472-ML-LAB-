@@ -1,0 +1,86 @@
+Dataset: telco, size: (7021, 40)
+Train set details | size: 4492 => yes: 1184, no: 3308
+Validation set details | size: 1124
+Test set details | size: 1405
+--------------Average LR Ensemble-------------
+Accuracy: 0.8004 +- 0.0039
+Sensitivity: 0.5498 +- 0.0603
+Specificity: 0.8896 +- 0.0235
+Precision: 0.6434 +- 0.0272
+F1 Score: 0.5896 +- 0.0271
+AUROC: 0.8458 +- 0.0016
+AUPR: 0.6466 +- 0.0060
+--------------Majority Voting Ensemble-------------
+Accuracy: 0.8021
+Sensitivity: 0.5474
+Specificity: 0.8929
+Precision: 0.6454
+F1-Score: 0.5924
+AUROC: 0.8474
+AUPR: 0.6501
+--------------Stacking Ensemble-------------
+Accuracy: 0.8050
+Sensitivity: 0.5203
+Specificity: 0.9064
+Precision: 0.6644
+F1-Score: 0.5836
+AUROC: 0.8459
+AUPR: 0.6549
+Dataset: B1, size: (3000, 2)
+alpha = 0.01, beta = 0.01
+Train set details | size: 1920 => yes: 968, no: 952
+Validation set details | size: 480
+Test set details | size: 600
+--------------Average LR Ensemble-------------
+Accuracy: 0.5339 +- 0.0893
+Sensitivity: 0.5917 +- 0.3206
+Specificity: 0.4780 +- 0.1374
+Precision: 0.4605 +- 0.1730
+F1 Score: 0.5078 +- 0.2233
+AUROC: 0.5005 +- 0.0025
+AUPR: 0.4424 +- 0.0013
+--------------Majority Voting Ensemble-------------
+Accuracy: 0.5083
+Sensitivity: 0.5559
+Specificity: 0.4623
+Precision: 0.5000
+F1-Score: 0.5265
+AUROC: 0.5005
+AUPR: 0.4422
+--------------Stacking Ensemble-------------
+Accuracy: 0.4817
+Sensitivity: 0.4339
+Specificity: 0.5279
+Precision: 0.4706
+F1-Score: 0.4515
+AUROC: 0.5031
+AUPR: 0.4436
+Dataset: B1, size: (3000, 2)
+alpha = 0.1, beta = 0.1
+Train set details | size: 1920 => yes: 968, no: 952
+Validation set details | size: 480
+Test set details | size: 600
+--------------Average LR Ensemble-------------
+Accuracy: 0.5185 +- 0.0710
+Sensitivity: 0.5759 +- 0.4690
+Specificity: 0.4630 +- 0.4048
+Precision: 0.3336 +- 0.2434
+F1 Score: 0.4130 +- 0.3184
+AUROC: 0.5009 +- 0.0065
+AUPR: 0.4432 +- 0.0032
+--------------Majority Voting Ensemble-------------
+Accuracy: 0.5067
+Sensitivity: 0.5424
+Specificity: 0.4721
+Precision: 0.4984
+F1-Score: 0.5195
+AUROC: 0.4997
+AUPR: 0.4419
+--------------Stacking Ensemble-------------
+Accuracy: 0.5083
+Sensitivity: 0.0000
+Specificity: 1.0000
+Precision: 0.0000
+F1-Score: 0.0000
+AUROC: 0.5004
+AUPR: 0.4435
